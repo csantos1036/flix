@@ -1,0 +1,12 @@
+Target dependency graph (5 targets)
+Alamofire in Pods
+AlamofireImage in Pods, depends on:
+Alamofire in Pods (explicit)
+Pods-flix in Pods, depends on:
+Alamofire in Pods (explicit)
+AlamofireImage in Pods (explicit)
+Pods-flix-flixUITests in Pods, depends on:
+Alamofire in Pods (explicit)
+AlamofireImage in Pods (explicit)
+Pods-flixTests in Pods, depends on:
+Pods-flix in Pods (explicit)

@@ -1,0 +1,51 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "1d7218cf1ffacf11b0d0d5ddb6837747ba3679b4c4428e6a6d83c5308d3af99b"
+    },
+    {
+      "guid" : "1d7218cf1ffacf11b0d0d5ddb6837747597a34553b993ff2a730d6649c282f68"
+    },
+    {
+      "guid" : "1d7218cf1ffacf11b0d0d5ddb6837747a327decb011ac8bf9182a9a50afe65b6"
+    },
+    {
+      "guid" : "1d7218cf1ffacf11b0d0d5ddb6837747a15a2881d7ca5c6beaf209a3c74341d5"
+    },
+    {
+      "guid" : "1d7218cf1ffacf11b0d0d5ddb68377470a77eebd4baadcee958ee24f205b9324"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/carolinasantos/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/carolinasantos/Library/Developer/Xcode/DerivedData/Pods-awgcidrsdceaoffdnieigtwkzbbb/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/carolinasantos/Library/Developer/Xcode/DerivedData/Pods-awgcidrsdceaoffdnieigtwkzbbb/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}
