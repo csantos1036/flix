@@ -75,6 +75,7 @@
                                             <outlet property="posterView" destination="tox-dv-kMz" id="IIk-Nn-7gN"/>
                                             <outlet property="synopsisLabel" destination="1et-3A-pxM" id="kuG-Xy-PVD"/>
                                             <outlet property="titleLabel" destination="wvo-6l-7to" id="Xfs-pO-Ewv"/>
+                                            <segue destination="XSd-EL-VRr" kind="show" id="zyB-pc-NZe"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -91,6 +92,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dnt-cj-3wi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="573.91304347826087" y="-609.375"/>
+        </scene>
+        <!--Movie Detail View Controller-->
+        <scene sceneID="TlY-0N-m4a">
+            <objects>
+                <viewController id="XSd-EL-VRr" customClass="MovieDetailViewController" customModule="flix" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ffc-xj-nlG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="PQz-9l-Rii"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fW2-3l-eWq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g8f-Pb-OvP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1361" y="-602"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hQf-4T-Gcl">
